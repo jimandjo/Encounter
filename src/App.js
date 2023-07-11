@@ -1,10 +1,9 @@
 import React from 'react';
-import About from './About';
-// import Welcome from './Welcome';
-import SmallGroups from './SmallGroups';
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home';
+import Welcome from './Welcome';
+import About from './About';
+import SmallGroups from './SmallGroups';
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />}>
-          {/* <Route index element={<Welcome />}/> */}
+          <Route index element={<Welcome />}/>
           <Route path="about" element={<About />} />
           <Route path='smallgroups' element={<SmallGroups />} />
         </Route>
