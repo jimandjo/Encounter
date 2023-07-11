@@ -5,6 +5,7 @@ import SmallGroups from './SmallGroups';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home';
+import Team from './Team';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           {/* <Route index element={<Welcome />}/> */}
           <Route path="about" element={<About />} />
           <Route path='smallgroups' element={<SmallGroups />} />
+          <Route path='team' element={<Team />} />
         </Route>
         <Route path="*" element={<h1>Page Not Found</h1>} />
       
