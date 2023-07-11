@@ -1,17 +1,26 @@
 import React from 'react';
+import About from './About';
+// import Welcome from './Welcome';
+import SmallGroups from './SmallGroups';
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './Home';
 
 function App() {
   return (
-    <div style={{ textAlign: 'center' }}>
-      <header>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />}>
+          {/* <Route index element={<Welcome />}/> */}
+          <Route path="about" element={<About />} />
+          <Route path='smallgroups' element={<SmallGroups />} />
+        </Route>
+        <Route path="*" element={<h1>Page Not Found</h1>} />
+      
+      </Routes>
+    </BrowserRouter>
+    </>
   );
 }
 
