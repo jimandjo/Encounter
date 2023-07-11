@@ -9,7 +9,7 @@ function Home() {
     return (
         <>
                     {/* Navbar */}
-            <Navbar bg="warning" variant="light" expand="lg">
+            <Navbar bg="info" variant="light" expand="lg">
                 <Container fluid>
                 <Navbar.Brand href="/">Encounter Church of Nappanee</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -4,14 +4,14 @@ import Banner from "./Banner.jpg";
 function Welcome() {
   return (
     <Card className="bg-dark text-white">
-      <Card.Img src={Banner} alt="Card image" />
+      <Card.Img style={{ height:400 }}  src={Banner} alt="Card image" />
       <Card.ImgOverlay>
-        <Card.Title>Card title</Card.Title>
+        <Card.Title></Card.Title>
         <Card.Text>
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
+          {/* This is a wider card with supporting text below as a natural lead-in
+          to additional content. This content is a little bit longer. */}
         </Card.Text>
-        <Card.Text>Last updated 3 mins ago</Card.Text>
+        {/* <Card.Text>Last updated 3 mins ago</Card.Text> */}
       </Card.ImgOverlay>
     </Card>
   );
