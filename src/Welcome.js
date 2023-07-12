@@ -1,6 +1,5 @@
 import Card from 'react-bootstrap/Card';
 import Banner from "./Banner.jpg";
-import { Button } from 'react-bootstrap';
 
 function Welcome() {
   return (
@@ -12,7 +11,7 @@ function Welcome() {
         Come join the Encounter family this Sunday at 9:30 as we worship our King and study his word together! <br></br>
         </Card.Text>
         <Card.Text>107 E Marion St, Nappanee, IN 46550</Card.Text>
-        {/* <Button variant="info">Go somewhere</Button> */}
+
         <Card.Text><p>July Schedule:<br></br></p>
 <p>July 2nd- Service 9:30<br></br>
 July 9th- Service 9:30<br></br>
