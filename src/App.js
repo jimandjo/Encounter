@@ -1,11 +1,9 @@
 import React from 'react';
 import About from './About';// import Welcome from './Welcome';
-import About from './About';
 import SmallGroups from './SmallGroups';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import Team from './Team';
-import Welcome from './Welcome';
 import Welcome from './Welcome';
 
 
