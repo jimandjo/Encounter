@@ -1,8 +1,7 @@
 import Card from 'react-bootstrap/Card';
-import Banner from "./Banner.jpg";
 import SmallGroupsPic from "./SmallGroupsPic.jpg"
 
-function Welcome() {
+function SmallGroups() {
   return (
     <Card className="bg-info text-black align-center">
       <Card.Img style={{ height:400 }}  src={SmallGroupsPic} alt="Encounter Church" />
@@ -18,4 +17,4 @@ function Welcome() {
   );
 }
 
-export default Welcome;
+export default SmallGroups;
