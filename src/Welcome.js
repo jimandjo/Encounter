@@ -1,5 +1,5 @@
 import Card from 'react-bootstrap/Card';
-import Banner from "./Banner.jpg";
+import Banner from "./Banner 4 X 8.jpg";
 
 function Welcome() {
   return (
