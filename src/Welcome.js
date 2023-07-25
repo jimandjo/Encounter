@@ -4,7 +4,7 @@ import './style.css';
 
 function Welcome() {
   return (
-    <Card className="bg-info text-black align-center">
+    <Card className="bg-info text-black align-center" style={{ width: '100%' }}>
       <Card.Img style={{ height:400 }}  src={Banner} alt="Encounter Church" />
       <Card.Body>
         <Card.Title>Pursuing the heart of God through divine encounters</Card.Title>
