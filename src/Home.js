@@ -19,9 +19,9 @@ function Home() {
                     <Link to="/smallgroups" className="nav-link">Small Groups</Link>
                     <Link to="/team" className="nav-link">Team</Link>
                 </Nav>
-                <Navbar.Text>
-                107 E Marion St, Nappanee, IN 46550
-          </Navbar.Text>
+                    <Navbar.Text>
+                        107 E Marion St, Nappanee, IN 46550
+                    </Navbar.Text>
                 </Navbar.Collapse>
                 </Container>
                 </Navbar>
