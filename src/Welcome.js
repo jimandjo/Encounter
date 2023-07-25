@@ -1,5 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import Banner from './Banner.jpg'
+import './style.css';
 
 function Welcome() {
   return (
