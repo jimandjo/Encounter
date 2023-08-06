@@ -1,8 +1,10 @@
 import Card from 'react-bootstrap/Card';
 import Banner from './Banner.jpg'
 import './style.css';
+import { useState } from 'react';
 
 function Welcome() {
+  const [welcome, setWelcome] = useState()
   return (
     <Card className="bg-info text-black align-center" style={{ width: '100%' }}>
       <Card.Img style={{ height:400 }}  src={Banner} alt="Encounter Church" />
