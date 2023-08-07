@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import Team from './Team';
 import Welcome from './Welcome';
+import Update from './Update';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path='smallgroups' element={<SmallGroups />} />
           <Route path='team' element={<Team />} />
+          <Route path='update' element={<Update />} />
         </Route>
         <Route path="*" element={<h1>Page Not Found</h1>} />
       
