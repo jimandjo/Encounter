@@ -1,11 +1,19 @@
+import { Button } from "react-bootstrap";
+import  Form  from "react-bootstrap/Form";
+
 function Update() {
     return (
 
         <>
-        <h1>
-
-           Here is where we update the information.
-        </h1>
+            
+            <Form>
+            <Form.Group className="mb-3" controlId="WelcomeEdit">
+                <Form.Label>Edit Welcome</Form.Label>
+                <Form.Control type="text"></Form.Control>
+                <Button>Update Welcome</Button>
+            </Form.Group>
+            </Form>
+            
         </>
     )
 }
