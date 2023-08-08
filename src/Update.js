@@ -2,8 +2,8 @@ import { Component } from "react";
 import { Button, Container } from "react-bootstrap";
 import  Form  from "react-bootstrap/Form";
 
-class SimpleForm extends Component {
-    render() {
+function EditForm() {
+    {
       return (
       
       <>
@@ -71,4 +71,4 @@ class SimpleForm extends Component {
          
   }
   
-  export default SimpleForm;
+  export default EditForm;

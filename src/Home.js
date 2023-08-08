@@ -37,6 +37,7 @@ function Home() {
                 <Nav className="me-auto">
                     <Link to="/update" className="nav-link">Update</Link>
                 </Nav>
+                <Navbar.Text>©2023 jimandjo.geo@yahoo.com</Navbar.Text>
                 </Navbar.Collapse>
                 </Container>
                 </Navbar>
