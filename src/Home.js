@@ -1,6 +1,6 @@
 
 import { Link, Outlet } from "react-router-dom"
-import { Navbar } from "react-bootstrap"
+import { NavLink, Navbar } from "react-bootstrap"
 import { Nav } from "react-bootstrap"
 import Container from "react-bootstrap/Container"
 import Stack from "react-bootstrap/Stack"
@@ -37,7 +37,7 @@ function Home() {
                 <Nav className="me-auto">
                     <Link to="/update" className="nav-link">Update</Link>
                 </Nav>
-                <Navbar.Text>©2023 jimandjo.geo@yahoo.com</Navbar.Text>
+                <NavLink href="mailto:jimandjo.geo@yahoo.com">©2023 jimandjo.geo@yahoo.com</NavLink>
                 </Navbar.Collapse>
                 </Container>
                 </Navbar>

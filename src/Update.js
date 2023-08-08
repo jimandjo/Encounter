@@ -7,6 +7,7 @@ function EditForm() {
       return (
       
       <>
+      {/* Form to edit the Welcome Page */}
         <Container>
         <Form>
             <legend>Edit Welcome Page</legend>
@@ -25,7 +26,7 @@ function EditForm() {
           <Button>Update</Button>
         </Form>
       </Container>
-
+{/* Form to edit the About Page */}
 <Container>
 <Form>
     <legend>Edit About Page</legend>
@@ -44,7 +45,7 @@ function EditForm() {
   <Button>Update</Button>
 </Form>
 </Container>
-
+{/* Form to edit the Small Groups page */}
 <Container>
 <Form>
     <legend>Edit Small Groups Page</legend>
