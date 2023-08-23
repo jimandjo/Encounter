@@ -19,7 +19,7 @@ function Welcome() {
         <Card.Text>
         Come join the Encounter family this Sunday at 9:30 as we worship our King and study his word together! <br></br>
         </Card.Text>
-        <Card.Text>107 E Marion St, Nappanee, IN 46550</Card.Text>
+        <Card.Text>107 E Marion St, Nappanee, IN 46550  -  Enter through the back doors.</Card.Text>
 
         <Card.Text> {welcome} </Card.Text>
       </Card.Body>

@@ -37,7 +37,7 @@ function Home() {
                 <Nav className="me-auto">
                     <Link to="/update" className="nav-link">Update</Link>
                 </Nav>
-                <NavLink href="jim@compsecure.us">©2023 jim@compsecure.us</NavLink>
+                <a href = "mailto: jim@compsecure.us">©2023 jim@compsecure.us</a>
                 </Navbar.Collapse>
                 </Container>
                 </Navbar>
