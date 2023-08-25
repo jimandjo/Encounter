@@ -1,6 +1,6 @@
 
 import { Link, Outlet } from "react-router-dom"
-import { Navbar } from "react-bootstrap"
+import { NavLink, Navbar } from "react-bootstrap"
 import { Nav } from "react-bootstrap"
 import Container from "react-bootstrap/Container"
 import Stack from "react-bootstrap/Stack"
@@ -29,6 +29,18 @@ function Home() {
                 <Stack gap={3} className="col-md-10 mx-auto">
                     <Outlet />
                 </Stack>
+
+                <Navbar bg="info" variant="light" expand="lg">
+                <Container fluid>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="me-auto">
+                    <Link to="/update" className="nav-link">Update</Link>
+                </Nav>
+                <a href = "mailto: jim@compsecure.us">©2023 jim@compsecure.us</a>
+                </Navbar.Collapse>
+                </Container>
+                </Navbar>
 
                
         </>
