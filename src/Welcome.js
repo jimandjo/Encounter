@@ -4,7 +4,7 @@ import './style.css';
 import { useState } from 'react';
 
 function Welcome() {
-  const [welcome, setWelcome] = useState('');
+  const [welcome, setWelcome] = useState('Calendar goes here....');
 
   function updateWelcome(newWelcome) {
     setWelcome(newWelcome);

@@ -4,6 +4,7 @@ import { NavLink, Navbar } from "react-bootstrap"
 import { Nav } from "react-bootstrap"
 import Container from "react-bootstrap/Container"
 import Stack from "react-bootstrap/Stack"
+import './style.css';
 
 function Home() {
     return (
