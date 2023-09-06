@@ -13,7 +13,7 @@ function Welcome() {
 
   return (
     <Card className="bg-info text-black align-center" style={{ width: '100%' }}>
-      <Card.Img style={{ height:400 }}  src={Banner} alt="Encounter Church" />
+      <Card.Img style={{ height:400 }}  src={Banner} alt="Encounter Church" class="img-fluid img-thumbnail" />
       <Card.Body>
         <Card.Title>Pursuing the heart of God through divine encounters</Card.Title>
         <Card.Text>

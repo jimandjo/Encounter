@@ -4,7 +4,7 @@ import SmallGroupsPic from "./SmallGroupsPic.jpg"
 function SmallGroups() {
   return (
     <Card className="bg-info text-black align-center">
-      <Card.Img style={{ height:400 }}  src={SmallGroupsPic} alt="Encounter Church" />
+      <Card.Img style={{ height:400 }}  src={SmallGroupsPic} alt="Encounter Church" class="img-fluid img-thumbnail"></Card.Img>
       <Card.Body>
         <Card.Title>Small Groups</Card.Title>
         <Card.Text>
