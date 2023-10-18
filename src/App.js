@@ -6,6 +6,7 @@ import Home from './Home';
 import Team from './Team';
 import Welcome from './Welcome';
 import Update from './Update';
+import Splash2 from './Splash2';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path='smallgroups' element={<SmallGroups />} />
           <Route path='team' element={<Team />} />
           <Route path='update' element={<Update />} />
+          <Route path='splash2' element={<Splash2 />} />
         </Route>
         <Route path="*" element={<h1>Page Not Found</h1>} />
       

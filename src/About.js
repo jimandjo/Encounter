@@ -4,7 +4,7 @@ import WelcomePic from "./WelcomePic.jpg";
 function About() {
   return (
     <Card className="bg-info text-black align-center">
-      <Card.Img style={{ height:400 }}  src={WelcomePic} alt="Encounter Church" />
+      <Card.Img style={{ height:400 }}  src={WelcomePic} alt="Encounter Church" fluid/>
       <Card.Title>Welcome to Encounter Church of Nappanee!</Card.Title>
         <Card.Text><p><br></br> 
         The latest happenings and schedule of the church are listed on the first page of this site.<br></br> <br></br> 
